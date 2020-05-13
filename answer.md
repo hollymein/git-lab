@@ -61,7 +61,19 @@ On branch master
 nothing to commit, working tree clean
 
 Answer 8: 
-commit c60c0ebda08386f6a6aaa578694885eef6601b21 (HEAD -> master)      
+commit e916566f019e66c28083cc236dcb8e3395f1fac3 (HEAD -> master, origin/master)
+Author: hollymein <hm917618@ohio.edu>
+Date:   Wed May 13 13:54:07 2020 -0700
+
+    Initial COMMIT
+
+commit cb414becc3c0b5c10fc0646ece89bce345acfd59
+Author: hollymein <65195100+hollymein@users.noreply.github.com>       
+Date:   Wed May 13 12:26:17 2020 -0700
+
+    Updating README.md on github webpage
+
+commit c60c0ebda08386f6a6aaa578694885eef6601b21
 Author: hollymein <hm917618@ohio.edu>
 Date:   Wed May 13 12:04:08 2020 -0700
 
@@ -88,6 +100,30 @@ hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 Answer 12:
+Using git pull did update my local repository and gave me this output:
+
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 726 bytes | 90.00 KiB/s, done.
+From https://github.com/hollymein/git-lab
+   cd81037..e115b1e  master     -> origin/master
+Updating cd81037..e115b1e
+Fast-forward
+ README.md | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+ Answer 13:
+When I type ls:
+
+    Directory: C:\Users\Holly Mein\Desktop\CS 2400\git-lab-2
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+-a----        5/13/2020   3:33 PM            302 .gitignore
+-a----        5/13/2020   3:33 PM             11 README.md
 
 
 
